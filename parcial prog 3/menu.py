@@ -30,7 +30,4 @@ def MenuPrincipal():
             break
         else:
             print("Escribe un numero que esté dentro de las opciones: ")
-
-if __name__ == "__main__":
-    MenuPrincipal()
     
