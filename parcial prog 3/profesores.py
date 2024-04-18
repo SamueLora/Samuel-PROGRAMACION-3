@@ -63,7 +63,3 @@ class Profesor:
 
             else:
                 print("Opción inválida, por favor intente de nuevo.")
-
-
-if __name__ == "__main__":
-    Profesor.MenuProfesores()
