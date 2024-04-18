@@ -65,5 +65,3 @@ class Carrera:
                 print("Opción inválida, por favor intente de nuevo.")
 
 
-if __name__ == "__main__":
-    Carrera.MenuCarreras()
