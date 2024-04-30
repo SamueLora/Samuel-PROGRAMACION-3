@@ -39,7 +39,7 @@ tk.Radiobutton(frame_datos, text="Femenino", variable=opcion, value=2).grid(row=
 
 tk.Label(frame_datos, text="Ciudad:").grid(row=4, column=0, padx=5, pady=5)
 rciudad = tk.Listbox(frame_datos, width=20, selectmode="SINGLE")
-elementos = ["Cartagena", "Bogota   ", "Barranquilla"]
+elementos = ["Cartagena", "Medellín", "Barranquilla"]
 for elemento in elementos:
     rciudad.insert(tk.END, elemento)
 rciudad.grid(row=4, column=1, padx=5, pady=5)
