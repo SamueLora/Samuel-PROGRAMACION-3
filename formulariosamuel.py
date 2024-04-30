@@ -2,7 +2,7 @@ import tkinter as tk
 
 ventana = tk.Tk()
 
-ventana.title("Registro de Usuarios")
+ventana.title("Registro Samuel :)")
 ventana.geometry("500x800")
 
 nombre_label = tk.Label(ventana, text="Nombre:")
@@ -30,7 +30,7 @@ rsexo_F.grid(row=3, column=2, padx=10, pady=5)
 ciudad_label = tk.Label(ventana, text="Ciudad:")
 ciudad_label.grid(row=4, column=0, padx=10, pady=5)
 rciudad = tk.Listbox(ventana, width=30)
-elementos = ["Cartagena", "Bogotá", "Barranquilla"]
+elementos = ["Cartagena", "Medellín", "Cúcuta", "Barranquilla", "Bogotá", "Santa Marta"]
 for elemento in elementos:
     rciudad.insert(tk.END, elemento)
 rciudad.grid(row=4, column=1, padx=10, pady=5)
